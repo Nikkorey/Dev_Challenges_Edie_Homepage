@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --white-c: #fff;
+  --black-c: #333;
+  --black-bg-c: #100e1d;
+  --light-black-c: #4f4f4f;
+  --lighter-black-c: #828282;
+  --light-gray-c: #f2f2f2;
+  --gray-c: #bdbdbd;
+  --blue-c: rgba(45, 156, 219, 0.7);
+  --sec-blue-c: rgba(47, 128, 237, 0.7);
+  --red-c: rgba(235, 87, 87, 0.7);
+  --green-c: rgba(39, 174, 96, 0.7);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+/* Typography */
+.heading__sec {
+  font-weight: 500;
+  font-size: 2.4rem;
+  font-style: normal;
+  margin: 1rem 0;
+}
+
+.container {
+  padding: 2rem 1rem;
+}
+
+/* Navigation */
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__menu-close {
+  display: none;
+}
+
+.nav__logo {
+  font-family: "Heebo", sans-serif;
+  font-size: 2.4rem;
+  color: #333;
+}
+
+.nav__list {
+  display: none;
+}
+
+/* Header */
+.header {
+  margin: 3rem 0;
+}
+
+.header__img {
+  width: 100%;
+  height: 140px;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+
+.header__intro {
+  padding: 0 3rem;
+}
+
+.header__story {
+  padding: 0 3rem;
+}
+
+/* Service Section */
+.service__card {
+  border: solid;
+  padding: 2rem;
+}
+
+/* Button */
+.btn {
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+}
