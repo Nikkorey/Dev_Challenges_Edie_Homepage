@@ -30,6 +30,11 @@ body {
   color: #333;
 }
 
+li {
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+}
+
 /* Typography */
 .heading__sec {
   font-weight: 500;
@@ -100,4 +105,11 @@ body {
   font-size: 1.6rem;
   padding: 0.5rem 1rem;
   border-radius: 0.8rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #100e1d;
+  color: #fff;
+  padding: 4rem;
 }
