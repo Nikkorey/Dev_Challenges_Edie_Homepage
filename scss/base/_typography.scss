@@ -1,0 +1,30 @@
+/* Typography */
+
+.heading {
+  &__sec {
+    font-weight: 500;
+    font-size: 2.4rem;
+    font-style: normal;
+    margin: 1rem 0;
+    width: 270px;
+
+    &-bold {
+      font-weight: bold;
+    }
+
+    &-big {
+      font-size: 3.6rem;
+      width: 280px;
+    }
+
+    &-testimony {
+      width: 100%;
+    }
+  }
+
+  &__ter {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+}

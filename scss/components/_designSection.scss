@@ -1,0 +1,17 @@
+.section__design {
+  margin: 4rem 0;
+}
+
+.design__card {
+  margin: 2rem 0;
+  img {
+    width: 100%;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #828282;
+  }
+}

@@ -1,0 +1,16 @@
+/* Service Section */
+
+.service {
+  &__card {
+    border: solid;
+    padding: 2rem;
+  }
+
+  &__content {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: #4f4f4f;
+    margin: 2rem 0;
+  }
+}

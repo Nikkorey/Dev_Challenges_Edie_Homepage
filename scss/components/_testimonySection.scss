@@ -1,0 +1,24 @@
+.testimony {
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+
+    img {
+      width: 20%;
+      border-radius: 1rem;
+    }
+  }
+
+  &__content {
+    margin-left: 3rem;
+    h2 {
+      margin: 0;
+    }
+    p {
+      font-size: 1.8rem;
+      color: #828282;
+    }
+  }
+}

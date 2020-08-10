@@ -1,21 +1,8 @@
+/* Color Variable */
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
-}
-
-:root {
-  --white-c: #fff;
-  --black-c: #333;
-  --black-bg-c: #100e1d;
-  --light-black-c: #4f4f4f;
-  --lighter-black-c: #828282;
-  --light-gray-c: #f2f2f2;
-  --gray-c: #bdbdbd;
-  --blue-c: rgba(45, 156, 219, 0.7);
-  --sec-blue-c: rgba(47, 128, 237, 0.7);
-  --red-c: rgba(235, 87, 87, 0.7);
-  --green-c: rgba(39, 174, 96, 0.7);
 }
 
 html {
@@ -35,16 +22,36 @@ li {
           text-decoration-style: none;
 }
 
+.container {
+  padding: 2rem 1rem;
+}
+
 /* Typography */
 .heading__sec {
   font-weight: 500;
   font-size: 2.4rem;
   font-style: normal;
   margin: 1rem 0;
+  width: 270px;
 }
 
-.container {
-  padding: 2rem 1rem;
+.heading__sec-bold {
+  font-weight: bold;
+}
+
+.heading__sec-big {
+  font-size: 3.6rem;
+  width: 280px;
+}
+
+.heading__sec-testimony {
+  width: 100%;
+}
+
+.heading__ter {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
 }
 
 /* Navigation */
@@ -100,11 +107,82 @@ li {
   padding: 2rem;
 }
 
-/* Button */
-.btn {
+.service__content {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
   font-size: 1.6rem;
-  padding: 0.5rem 1rem;
-  border-radius: 0.8rem;
+  color: #4f4f4f;
+  margin: 2rem 0;
+}
+
+.section__design {
+  margin: 4rem 0;
+}
+
+.design__card {
+  margin: 2rem 0;
+}
+
+.design__card img {
+  width: 100%;
+  border-radius: 3rem;
+  margin-bottom: 1rem;
+}
+
+.design__card p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #828282;
+}
+
+.team__message p {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.team__message .meet {
+  color: rgba(235, 87, 87, 0.7);
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.team__image {
+  margin: 3rem 0;
+}
+
+.team__image img {
+  width: 80%;
+}
+
+.testimony__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+
+.testimony__info img {
+  width: 20%;
+  border-radius: 1rem;
+}
+
+.testimony__content {
+  margin-left: 3rem;
+}
+
+.testimony__content h2 {
+  margin: 0;
+}
+
+.testimony__content p {
+  font-size: 1.8rem;
+  color: #828282;
 }
 
 /* Footer */
@@ -112,4 +190,16 @@ li {
   background-color: #100e1d;
   color: #fff;
   padding: 4rem;
+}
+
+/* Button */
+.btn {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  background-color: #e0e0e0;
+  color: #828282;
 }
