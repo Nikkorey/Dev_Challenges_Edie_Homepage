@@ -57,7 +57,9 @@
           class="header__img"
         />
         <div class="header__story">
-          <h2 class="heading heading__sec">Story, emotion and purpose</h2>
+          <h2 class="heading heading__sec heading__sec-story">
+            Story, emotion and purpose
+          </h2>
           <p>
             We help transform your ideas into real wold applications that will
             outperform your toughest competition and help you achieve your
@@ -68,13 +70,14 @@
         <form action="" class="header__form">
           <label for="">Want us to contact you?</label>
           <input type="text" placeholder="Email" />
-          <button>Join</button>
+          <button class="btn btn__form">Join</button>
         </form>
       </header>
 
       <section class="service service__section">
         <h2 class="heading heading__sec">We offer high demand services</h2>
         <div class="service__card">
+          <span class="material-icons">create</span>
           <h2 class="heading heading__sec heading__sec-bold">UI/UX Designs</h2>
           <p class="service__content">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
@@ -84,6 +87,12 @@
         </div>
 
         <div class="service__card">
+          <span class="material-icons">
+            chevron_left
+          </span>
+          <span class="material-icons">
+            chevron_right
+          </span>
           <h2 class="heading heading__sec heading__sec-bold">Front End</h2>
           <p class="service__content">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
@@ -93,6 +102,9 @@
         </div>
 
         <div class="service__card">
+          <span class="material-icons">
+            storage
+          </span>
           <h2 class="heading heading__sec heading__sec-bold">Back End</h2>
           <p class="service__content">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
@@ -129,7 +141,12 @@
             <p>Front End application</p>
             <h3 class="heading__ter">Juice product homepage</h3>
           </div>
-          <a href="#">See more</a>
+          <div class="design__link">
+            <a href="#">See more</a>
+            <i class="material-icons item__icons header__arrow"
+              >arrow_right_alt</i
+            >
+          </div>
         </div>
       </section>
       <!-- End of Section Design -->
@@ -149,9 +166,21 @@
           </div>
 
           <div class="team__image">
-            <img src="./images/person3.png" alt="person1 photo" />
-            <img src="./images/person1.png" alt="person2 photo" />
-            <img src="./images/person2.png" alt="person3 photo" />
+            <img
+              src="./images/person3.png"
+              alt="person1 photo"
+              class="team__image-one"
+            />
+            <img
+              src="./images/person1.png"
+              alt="person2 photo"
+              class="team__image-two"
+            />
+            <img
+              src="./images/person2.png"
+              alt="person3 photo"
+              class="team__image-three"
+            />
           </div>
         </div>
       </section>
@@ -178,19 +207,19 @@
     <footer class="footer">
       <div class="footer_nav">
         <ul class="footer__navList">
-          <li class="nav__item">
+          <li class="footer__navItem">
             <a href="#" class="footer__navItem-link">Home</a>
           </li>
-          <li class="nav__item">
+          <li class="footer__navItem">
             <a href="#" class="footer__navItem-link">Services</a>
           </li>
-          <li class="nav__item">
+          <li class="footer__navItem">
             <a href="#" class="footer__navItem-link">Our Works</a>
           </li>
-          <li class="nav__item">
+          <li class="footer__navItem">
             <a href="#" class="footer__navItem-link">Clients</a>
           </li>
-          <li class="nav__item">
+          <li class="footer__navItem">
             <a href="#" class="footer__navItem-link">Contact</a>
           </li>
         </ul>
@@ -203,7 +232,7 @@
       <form action="" class="header__form footer__form">
         <label for="">Want us to contact you?</label>
         <input type="text" placeholder="Email" />
-        <button>Join</button>
+        <button class="btn footer__btn">Join</button>
       </form>
 
       <p>Nikko Rey Hular @ Devchallenges.io</p>

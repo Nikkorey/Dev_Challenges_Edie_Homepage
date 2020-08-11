@@ -3,4 +3,25 @@
   background-color: #100e1d;
   color: #fff;
   padding: 4rem;
+
+  &__navList {
+  }
+
+  &__navItem {
+    list-style-type: none;
+
+    &-link {
+      display: block;
+      color: #fff;
+      font-size: 1.8rem;
+      margin-top: 1rem;
+    }
+  }
+  &__social {
+    margin: 2rem 0;
+  }
+
+  &__logo {
+    color: #fff;
+  }
 }
