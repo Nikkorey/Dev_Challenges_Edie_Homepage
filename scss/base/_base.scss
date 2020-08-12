@@ -23,3 +23,11 @@ li {
 .container {
   padding: 2rem 1.5rem;
 }
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 2rem 5rem;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}

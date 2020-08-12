@@ -36,3 +36,13 @@
     grid-area: three;
   }
 }
+
+@media (min-width: 1024px) {
+  .team__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}

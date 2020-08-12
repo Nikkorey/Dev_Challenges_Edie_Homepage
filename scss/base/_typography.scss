@@ -32,3 +32,12 @@
     font-size: 1.8rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .heading {
+    &__sec {
+      font-size: 4.8rem;
+      width: 550px;
+    }
+  }
+}

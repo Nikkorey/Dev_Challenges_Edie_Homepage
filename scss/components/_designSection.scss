@@ -28,3 +28,43 @@
     margin-left: 1rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .section__design {
+    max-width: 1100px;
+    margin: 10rem auto;
+  }
+  .design__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    grid-template-areas:
+      "one two"
+      "one ."
+      "three four"
+      "three .";
+  }
+
+  .design__card {
+    margin: 0;
+  }
+
+  .design__card-one {
+    grid-area: one;
+    margin-top: 10rem;
+  }
+
+  .design__card-two {
+    grid-area: two;
+  }
+
+  .design__card-three {
+    grid-area: three;
+    margin-top: 10rem;
+  }
+
+  .design__card-four {
+    grid-area: four;
+  }
+}

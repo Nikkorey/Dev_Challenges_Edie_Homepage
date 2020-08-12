@@ -62,3 +62,37 @@
   font-size: 1.4rem;
   font-weight: 500;
 }
+
+@media (min-width: 1024px) {
+  .header {
+    &__img {
+      height: 100%;
+    }
+
+    &__intro {
+      padding: 0 30rem;
+
+      p {
+        font-size: 1.8rem;
+      }
+    }
+
+    &__story {
+      padding: 0 30rem;
+      width: 360px;
+
+      p {
+        font-size: 1.8rem;
+      }
+    }
+
+    &__form {
+      padding: 0 30rem;
+      max-width: 360px;
+    }
+  }
+
+  .btn__form {
+    right: 17.5rem;
+  }
+}
