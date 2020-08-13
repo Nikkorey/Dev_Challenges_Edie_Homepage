@@ -2,7 +2,11 @@
 .footer {
   background-color: #100e1d;
   color: #fff;
-  padding: 4rem;
+  padding: 4rem 4rem 1rem 4rem;
+  p {
+    text-align: center;
+    margin-top: 5rem;
+  }
 
   &__navList {
   }

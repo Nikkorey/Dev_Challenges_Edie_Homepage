@@ -9,4 +9,10 @@
   border: none;
   background-color: #e0e0e0;
   color: #828282;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: rgba(3, 88, 138, 0.7);
 }

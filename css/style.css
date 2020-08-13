@@ -83,6 +83,13 @@ li {
   border: none;
   background-color: #e0e0e0;
   color: #828282;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: rgba(3, 88, 138, 0.7);
 }
 
 /* Navigation */
@@ -482,7 +489,12 @@ li {
 .footer {
   background-color: #100e1d;
   color: #fff;
-  padding: 4rem;
+  padding: 4rem 4rem 1rem 4rem;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .footer__navItem {
