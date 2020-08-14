@@ -1,8 +1,19 @@
 /* Service Section */
 
 .service {
-  &__card {
-    padding: 2rem;
+  margin-top: 10rem;
+}
+
+.card {
+  margin-top: 5rem;
+
+  &__wrapper {
+    padding: 4rem 3rem;
+
+    &:hover {
+      border: solid;
+      cursor: pointer;
+    }
   }
 
   &__content {
@@ -10,7 +21,7 @@
     font-weight: normal;
     font-size: 1.6rem;
     color: #4f4f4f;
-    margin: 2rem 0;
+    margin: 3rem 0;
   }
 
   &__icon {
@@ -18,7 +29,7 @@
     padding: 1.5rem;
     color: white;
     background-color: yellow;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 
     &-blue {
       background-color: rgba(45, 156, 219, 0.7);
@@ -35,15 +46,17 @@
 @media (min-width: 1024px) {
   .service {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 20rem auto;
   }
-  .service__card {
-    width: 24%;
-    border: solid;
-    padding: 4rem;
-  }
-  .card__container {
+
+  .card {
     display: flex;
     justify-content: space-between;
+    margin-top: 5rem;
+
+    &__wrapper {
+      width: 24%;
+      padding: 4rem;
+    }
   }
 }

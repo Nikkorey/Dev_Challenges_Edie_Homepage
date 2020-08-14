@@ -1,4 +1,6 @@
-.team__message {
+/* Team Section */
+
+.team__wrapper {
   p {
     font-size: 1.6rem;
     font-weight: normal;
@@ -10,7 +12,7 @@
   }
 }
 
-.team__image {
+.teamImage {
   margin: 3rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -24,15 +26,15 @@
     border-radius: 2.5rem;
   }
 
-  &-one {
+  &__one {
     grid-area: one;
     place-self: center;
   }
 
-  &-two {
+  &__two {
     grid-area: two;
   }
-  &-three {
+  &__three {
     grid-area: three;
   }
 }
@@ -44,5 +46,17 @@
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
+  }
+
+  .teamImage {
+    grid-gap: 2rem;
+  }
+
+  .team__wrapper {
+    width: 280px;
+
+    h3 {
+      margin: 2rem 0;
+    }
   }
 }

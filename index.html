@@ -47,7 +47,7 @@
       <header class="header">
         <div class="header__intro">
           <p>Unhappy with your website?</p>
-          <h2 class="heading heading__sec">
+          <h2 class="heading heading__sec heading__sec-header">
             We create beautiful and fast web services
           </h2>
         </div>
@@ -57,7 +57,7 @@
           class="header__img"
         />
         <div class="header__story">
-          <h2 class="heading heading__sec heading__sec-story">
+          <h2 class="heading heading__sec heading__sec-header">
             Story, emotion and purpose
           </h2>
           <p>
@@ -65,50 +65,52 @@
             outperform your toughest competition and help you achieve your
             strategic goals in short period of time.
           </p>
-        </div>
 
-        <form action="" class="header__form">
-          <label for="">Want us to contact you?</label>
-          <input type="text" placeholder="Email" />
-          <button class="btn btn__form">Join</button>
-        </form>
+          <form action="" class="form">
+            <div class="form__wrapper">
+              <label for="">Want us to contact you?</label>
+              <input type="text" placeholder="Email" />
+              <button class="btn form__btn">Join</button>
+            </div>
+          </form>
+        </div>
       </header>
 
-      <section class="service service__section" id="Services">
-        <h2 class="heading heading__sec">We offer high demand services</h2>
-        <div class="card__container">
-          <div class="service__card">
-            <span class="material-icons service__icon service__icon-blue"
+      <section class="service" id="Services">
+        <h3 class="heading__ter">We offer high demand services</h3>
+        <div class="card">
+          <div class="card__wrapper">
+            <span class="material-icons card__icon card__icon-blue"
               >create</span
             >
-            <h2 class="heading heading__sec heading__sec-bold">
-              UI/UX Designs
-            </h2>
-            <p class="service__content">
+            <h4 class="heading__four heading__four-bold">
+              UI/UX Design
+            </h4>
+            <p class="card__content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
               quisquam maxime velit fugiat veritatis? Temporibus.
             </p>
             <button class="btn">Get Started</button>
           </div>
 
-          <div class="service__card">
-            <span class="material-icons service__icon service__icon-green">
+          <div class="card__wrapper">
+            <span class="material-icons card__icon card__icon-green">
               code
             </span>
-            <h2 class="heading heading__sec heading__sec-bold">Front End</h2>
-            <p class="service__content">
+            <h4 class="heading__four heading__four-bold">Front End</h4>
+            <p class="card__content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
               quisquam maxime velit fugiat veritatis? Temporibus.
             </p>
             <button class="btn">Get Started</button>
           </div>
 
-          <div class="service__card">
-            <span class="material-icons service__icon service__icon-red">
+          <div class="card__wrapper">
+            <span class="material-icons card__icon card__icon-red">
               storage
             </span>
-            <h2 class="heading heading__sec heading__sec-bold">Back End</h2>
-            <p class="service__content">
+            <h4 class="heading__four heading__four-bold">Back End</h4>
+            <p class="card__content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
               quisquam maxime velit fugiat veritatis? Temporibus.
             </p>
@@ -118,34 +120,36 @@
       </section>
 
       <!-- Start Section Design -->
-      <section class="section__design" id="Works">
-        <h2 class="heading heading__sec">Good design means good business</h2>
-        <div class="design__container">
-          <div class="design__card design__card-one">
+      <section class="work" id="Works">
+        <h3 class="heading__ter heading__ter-work">
+          Good design means good business
+        </h3>
+        <div class="work__container">
+          <div class="work__wrapper work__wrapper-one">
             <img src="./images/smarthome.jpg" alt="smarthome" />
             <p>Full stack application</p>
-            <h3 class="heading__ter">Smart home dashboard</h3>
+            <h4 class="heading__four">Smart home dashboard</h4>
           </div>
 
-          <div class="design__card design__card-two">
+          <div class="work__wrapper work__wrapper-two">
             <img src="./images/onboard.png" alt="On board" />
             <p>UX/UI design</p>
-            <h3 class="heading__ter">Onboard Application</h3>
+            <h4 class="heading__four">Onboard Application</h4>
           </div>
 
-          <div class="design__card design__card-three">
+          <div class="work__wrapper work__wrapper-three">
             <img src="./images/booking.png" alt="Booking" />
             <p>Mobile application</p>
-            <h3 class="heading__ter">Booking system</h3>
+            <h4 class="heading__four">Booking system</h4>
           </div>
 
-          <div class="design__card design__card-four">
+          <div class="work__wrapper work__wrapper-four">
             <img src="./images/juice-product.png" alt="Juice Product" />
             <p>Front End application</p>
-            <h3 class="heading__ter">Juice product homepage</h3>
+            <h4 class="heading__four">Juice product homepage</h4>
           </div>
         </div>
-        <div class="design__link">
+        <div class="work__link">
           <a href="#">See more</a>
           <i class="material-icons item__icons header__arrow"
             >arrow_right_alt</i
@@ -155,34 +159,34 @@
       <!-- End of Section Design -->
 
       <!-- Start Section Team -->
-      <section class="section__team">
+      <section class="team">
         <div class="team__container">
-          <div class="team__message">
+          <div class="team__wrapper">
             <p class="meet">Meet the team</p>
-            <h2 class="heading__sec heading__sec-big">
+            <h3 class="heading__ter heading__ter-mobile">
               We are chilled and a laidback team
-            </h2>
+            </h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Nesciunt, aut!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+              facere.
             </p>
           </div>
 
-          <div class="team__image">
+          <div class="teamImage">
             <img
               src="./images/person3.png"
               alt="person1 photo"
-              class="team__image-one"
+              class="teamImage__one"
             />
             <img
               src="./images/person1.png"
               alt="person2 photo"
-              class="team__image-two"
+              class="teamImage__two"
             />
             <img
               src="./images/person2.png"
               alt="person3 photo"
-              class="team__image-three"
+              class="teamImage__three"
             />
           </div>
         </div>
@@ -190,16 +194,16 @@
       <!-- End of Section Team -->
 
       <!-- Start Testimony Section -->
-      <section class="testimony" id="Clients">
-        <div class="testimony__container">
-          <h2 class="heading__sec heading__sec-testimony">
+      <section class="client" id="Clients">
+        <div class="client__container">
+          <h3 class="heading__ter heading__ter-client">
             "Fast and outstanding results. Edie understands their customer's
             needs. They have a young and talented team."
-          </h2>
-          <div class="testimony__info">
+          </h3>
+          <div class="client__info">
             <img src="./images/person4.png" alt="Carlos Photo" />
-            <div class="testimony__content">
-              <h2 class="heading__sec">Carlos Tran</h2>
+            <div class="client__content">
+              <h4 class="heading__four heading__four-mobile">Carlos Tran</h4>
               <p>The decorate Gatsby</p>
             </div>
           </div>
@@ -233,13 +237,15 @@
           <a href="#" class="footer__logo"><h1>Edie</h1></a>
         </div>
 
-        <form action="" class="header__form footer__form">
-          <label for="">Want us to contact you?</label>
-          <input type="text" placeholder="Email" />
-          <button class="btn btn__form">Join</button>
+        <form action="" class="form footer__form">
+          <div class="form__wrapper">
+            <label for="">Want us to contact you?</label>
+            <input type="text" placeholder="Email" />
+            <button class="btn form__btn">Join</button>
+          </div>
         </form>
       </div>
-      <p>Nikko Rey Hular @ Devchallenges.io</p>
+      <p class="footer__copyright">Nikko Rey Hular @ Devchallenges.io</p>
     </footer>
 
     <script src="app.js"></script>

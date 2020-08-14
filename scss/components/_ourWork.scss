@@ -1,0 +1,79 @@
+/* Our Work Section */
+
+.work {
+  margin: 5rem 0;
+
+  &__container {
+    margin-top: 5rem;
+  }
+
+  &__wrapper {
+    margin: 3rem 0;
+
+    img {
+      width: 100%;
+      border-radius: 3rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #828282;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+
+    a {
+      font-size: 1.8rem;
+      color: rgba(47, 128, 237, 0.7);
+    }
+    i {
+      color: rgba(47, 128, 237, 0.7);
+      margin-left: 1rem;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .work {
+    max-width: 1100px;
+    margin: 10rem auto;
+    border: solid;
+  }
+  .work__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    grid-template-areas:
+      "one two"
+      "one ."
+      "three four"
+      "three .";
+  }
+
+  .work__wrapper {
+    margin: 0;
+  }
+
+  .work__wrapper-one {
+    grid-area: one;
+    margin-top: 10rem;
+  }
+
+  .work__wrapper-two {
+    grid-area: two;
+  }
+
+  .work__wrapper-three {
+    grid-area: three;
+    margin-top: 10rem;
+  }
+
+  .work__wrapper-four {
+    grid-area: four;
+  }
+}

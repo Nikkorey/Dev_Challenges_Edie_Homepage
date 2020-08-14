@@ -1,10 +1,10 @@
-.testimony {
-  margin: 5rem 0;
+.client {
+  margin: 10rem 0;
   &__info {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
 
     img {
       width: 20%;
@@ -13,7 +13,7 @@
   }
 
   &__content {
-    margin-left: 3rem;
+    margin-left: 2rem;
     h2 {
       margin: 0;
     }
@@ -24,7 +24,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .testimony {
+  .client {
     max-width: 1100px;
     margin: 20rem auto;
 
@@ -37,7 +37,7 @@
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      margin-top: 3rem;
+      margin-top: 8rem;
 
       img {
         width: 10%;

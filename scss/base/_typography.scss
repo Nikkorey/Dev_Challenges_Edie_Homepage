@@ -5,31 +5,32 @@
     font-weight: 500;
     font-size: 2.4rem;
     font-style: normal;
-    margin: 1rem 0;
-    width: 270px;
-
-    &-bold {
-      font-weight: bold;
-    }
-
-    &-big {
-      font-size: 3.6rem;
-      width: 280px;
-    }
-
-    &-testimony {
-      width: 100%;
-    }
-
-    &-story {
-      width: 200px;
-    }
   }
 
   &__ter {
     font-style: normal;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
+    width: 350px;
+
+    &-work {
+      width: 280px;
+    }
+
+    &-mobile {
+      font-size: 3.6rem;
+      width: 280px;
+    }
+  }
+
+  &__four {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+
+    &-bold {
+      font-weight: bold;
+    }
   }
 }
 
@@ -37,7 +38,27 @@
   .heading {
     &__sec {
       font-size: 4.8rem;
-      width: 550px;
+
+      &-header {
+        width: 550px;
+      }
+    }
+
+    &__ter {
+      font-size: 3.6rem;
+
+      &-work {
+        width: 450px;
+      }
+
+      &-client {
+        font-size: 3.6rem;
+        width: 940px;
+      }
+    }
+
+    &__four {
+      font-size: 2.4rem;
     }
   }
 }
