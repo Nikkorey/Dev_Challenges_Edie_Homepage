@@ -20,25 +20,25 @@
     font-family: "Poppins", sans-serif;
     font-weight: normal;
     font-size: 1.6rem;
-    color: #4f4f4f;
+    color: $gray-dark-c;
     margin: 3rem 0;
   }
 
   &__icon {
     border-radius: 1.5rem;
     padding: 1.5rem;
-    color: white;
+    color: $white-c;
     background-color: yellow;
     margin-bottom: 3rem;
 
     &-blue {
-      background-color: rgba(45, 156, 219, 0.7);
+      background-color: $blueOne-c;
     }
     &-green {
-      background-color: rgba(39, 174, 96, 0.7);
+      background-color: $green-c;
     }
     &-red {
-      background-color: rgba(235, 87, 87, 0.7);
+      background-color: $red-c;
     }
   }
 }

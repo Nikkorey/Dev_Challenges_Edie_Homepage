@@ -6,7 +6,7 @@
     font-weight: normal;
   }
   .meet {
-    color: rgba(235, 87, 87, 0.7);
+    color: $red-c;
     font-weight: 500;
     font-size: 1.8rem;
   }
@@ -50,6 +50,10 @@
 
   .teamImage {
     grid-gap: 2rem;
+
+    img {
+      width: 100%;
+    }
   }
 
   .team__wrapper {

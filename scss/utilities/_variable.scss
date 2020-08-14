@@ -1,13 +1,27 @@
 /* Color Variable */
 
-$--white-c: #fff;
-$--black-c: #333;
-$--black-bg-c: #100e1d;
-$--light-black-c: #4f4f4f;
-$--lighter-black-c: #828282;
-$--light-gray-c: #f2f2f2;
-$--gray-c: #bdbdbd;
-$--blue-c: rgba(45, 156, 219, 0.7);
-$--sec-blue-c: rgba(47, 128, 237, 0.7);
-$--red-c: rgba(235, 87, 87, 0.7);
-$--green-c: rgba(39, 174, 96, 0.7);
+$white-c: #fff;
+$whiteTwo-c: #f2f2f2;
+$whiteThree-c: #e0e0e0;
+$whiteBg-c: rgba(255, 255, 255, 0.9);
+
+$black-c: #100e1d;
+$black-light-c: #333;
+
+$gray-dark-c: #4f4f4f;
+$gray-c: #828282;
+$gray-light-c: #bdbdbd;
+$gray-lightTwo-c: #a9a9a9;
+
+$blueOne-c: rgba(45, 156, 219, 0.7);
+$blueTwo-c: rgba(47, 128, 237, 0.7);
+$blue-dark-c: rgba(3, 88, 138, 0.7);
+
+$red-c: rgba(235, 87, 87, 0.7);
+
+$green-c: rgba(39, 174, 96, 0.7);
+
+// Media query breakpoints
+
+$brk-point-768: "(min-width: 768px)";
+$brk-point-1024: "(min-width: 1024px)";

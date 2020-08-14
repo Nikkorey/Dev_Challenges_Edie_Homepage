@@ -1,12 +1,12 @@
 /* Header */
 
 .header {
-  margin: 5rem 0;
+  margin: 10rem 0;
 
   &__intro {
     padding: 0 3rem;
     p {
-      color: rgba(45, 156, 219, 0.7);
+      color: $blueOne-c;
       font-size: 1.2rem;
       font-weight: 500;
       margin-bottom: 1rem;

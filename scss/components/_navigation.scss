@@ -4,17 +4,96 @@
   justify-content: space-between;
   align-items: center;
 
-  &__menu-close {
-    display: none;
+  @media #{$brk-point-1024} {
+    margin: 2rem 0;
+  }
+
+  &__menu {
+    z-index: 1500;
+    cursor: pointer;
+
+    @media #{$brk-point-1024} {
+      display: none;
+    }
+
+    &-burger {
+      font-size: 3rem;
+    }
+
+    &-close {
+      display: none;
+      font-size: 3rem;
+    }
   }
 
   &__logo {
     font-family: "Heebo", sans-serif;
     font-size: 2.4rem;
-    color: #333;
+    color: $black-light-c;
   }
 
   &__list {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: $whiteBg-c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1400;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.5s;
+
+    @media #{$brk-point-1024} {
+      position: initial;
+      width: initial;
+      height: initial;
+      background-color: transparent;
+      flex-direction: row;
+      justify-content: initial;
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  &__item {
+    list-style: none;
+
+    @media #{$brk-point-1024} {
+      margin-left: 5rem;
+    }
+
+    &-link {
+      display: block;
+      font-weight: 500;
+      color: $black-light-c;
+      font-size: 2.4rem;
+      margin-bottom: 2rem;
+
+      @media #{$brk-point-1024} {
+        margin: 0;
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  &__open {
+    .nav__menu {
+      &-burger {
+        display: none;
+      }
+      &-close {
+        display: block;
+      }
+    }
+
+    .nav__list {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
 }
