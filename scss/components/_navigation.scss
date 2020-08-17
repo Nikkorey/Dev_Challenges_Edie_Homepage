@@ -12,7 +12,7 @@
     z-index: 1500;
     cursor: pointer;
 
-    @media #{$brk-point-1024} {
+    @media #{$brk-point-768} {
       display: none;
     }
 
@@ -48,7 +48,7 @@
     transform: scale(0);
     transition: opacity 0.5s;
 
-    @media #{$brk-point-1024} {
+    @media #{$brk-point-768} {
       position: initial;
       width: initial;
       height: initial;
@@ -63,8 +63,8 @@
   &__item {
     list-style: none;
 
-    @media #{$brk-point-1024} {
-      margin-left: 5rem;
+    @media #{$brk-point-768} {
+      margin-left: 3rem;
     }
 
     &-link {
@@ -74,8 +74,12 @@
       font-size: 2.4rem;
       margin-bottom: 2rem;
 
-      @media #{$brk-point-1024} {
+      @media #{$brk-point-768} {
         margin: 0;
+        font-size: 1.8rem;
+      }
+
+      @media #{$brk-point-1024} {
         font-size: 2.4rem;
       }
     }

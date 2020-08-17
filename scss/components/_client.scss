@@ -23,6 +23,12 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .heading__ter-client {
+    width: 600px;
+  }
+}
 @media (min-width: 1024px) {
   .client {
     max-width: 1100px;

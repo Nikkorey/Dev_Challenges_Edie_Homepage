@@ -1,44 +1,39 @@
 .form {
-  display: grid;
-  place-items: center;
-
-  .form__wrapper {
+  &__hero {
     position: relative;
+    width: 270px;
   }
-  label {
+
+  &__label {
     display: block;
     font-size: 1rem;
     margin-bottom: 1rem;
     color: $gray-c;
   }
-  input {
-    width: 255px;
+
+  &__input {
+    width: 88%;
+    display: block;
     padding: 1.5rem;
     border-radius: 1.2rem;
     outline: none;
     border: none;
     background-color: $whiteTwo-c;
-  }
 
-  input::placeholder {
-    font-size: 1.4rem;
-    font-weight: 500;
+    &::placeholder {
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
   }
 
   &__btn {
     position: absolute;
-    top: 3rem;
+    top: 0.4rem;
     right: 0.5rem;
     background-color: $blueOne-c;
     color: $white-c;
     width: 70px;
     font-size: 1.4rem;
     font-weight: 500;
-  }
-}
-
-@media (min-width: 1024px) {
-  .form {
-    width: 350px;
   }
 }

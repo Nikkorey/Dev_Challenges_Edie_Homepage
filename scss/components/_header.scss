@@ -4,12 +4,23 @@
   margin: 10rem 0;
 
   &__intro {
-    padding: 0 3rem;
+    margin: 0 3rem;
+
+    @media #{$brk-point-1024} {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-left: 15rem;
+    }
+
     p {
       color: $blueOne-c;
       font-size: 1.2rem;
       font-weight: 500;
       margin-bottom: 1rem;
+
+      @media #{$brk-point-1024} {
+        font-size: 1.8rem;
+      }
     }
   }
 
@@ -18,50 +29,34 @@
     height: 20%;
     border-radius: 1rem;
     margin: 2rem 0;
+
+    @media #{$brk-point-1024} {
+      height: 100%;
+    }
   }
 
   &__story {
-    padding: 0 3rem;
+    margin: 0 3rem;
+
+    @media #{$brk-point-1024} {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-left: 15rem;
+    }
+
+    h2 {
+      @media #{$brk-point-1024} {
+        width: 370px;
+      }
+    }
 
     p {
       margin: 3rem 0;
-    }
-  }
-}
 
-@media (min-width: 1024px) {
-  .header {
-    &__img {
-      height: 100%;
-    }
-
-    &__intro {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding-left: 15rem;
-
-      p {
-        font-size: 1.8rem;
-      }
-    }
-
-    &__story {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding-left: 15rem;
-
-      h2 {
-        width: 370px;
-      }
-
-      p {
+      @media #{$brk-point-1024} {
         font-size: 1.8rem;
         width: 370px;
       }
     }
-  }
-
-  .btn__form {
-    right: 17.5rem;
   }
 }
