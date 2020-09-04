@@ -24,15 +24,10 @@
   }
 }
 
-@media (min-width: 768px) {
-  .heading__ter-client {
-    width: 600px;
-  }
-}
-@media (min-width: 1024px) {
+@media #{$brk-point-1024} {
   .client {
     max-width: 1100px;
-    margin: 20rem auto;
+    margin: 15rem auto;
 
     h2 {
       width: 900px;

@@ -22,12 +22,12 @@ li {
 
 .container {
   padding: 2rem 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-@media (min-width: 1024px) {
+@media #{$brk-point-1024} {
   .container {
     padding: 2rem 5rem;
-    max-width: 1440px;
-    margin: 0 auto;
   }
 }

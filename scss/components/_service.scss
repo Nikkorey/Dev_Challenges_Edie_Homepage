@@ -11,7 +11,8 @@
     padding: 4rem 3rem;
 
     &:hover {
-      border: solid;
+      border-radius: 1rem;
+      box-shadow: 3px 5px 5px $blueOne-c;
       cursor: pointer;
     }
   }
@@ -43,7 +44,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media #{$brk-point-768} {
   .card {
     display: flex;
     justify-content: space-between;
@@ -57,7 +58,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media #{$brk-point-1024} {
   .service {
     max-width: 1100px;
     margin: 20rem auto;

@@ -73,6 +73,13 @@
       color: $black-light-c;
       font-size: 2.4rem;
       margin-bottom: 2rem;
+      transition: 0.3s;
+
+      &:hover {
+        color: $blueOne-c;
+        border-bottom: 5px solid;
+        border-top: 5px solid;
+      }
 
       @media #{$brk-point-768} {
         margin: 0;
